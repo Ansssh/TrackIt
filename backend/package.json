@@ -1,0 +1,23 @@
+{
+  "name": "trackit",
+  "version": "1.0.0",
+  "description": "A Job Tracking Application",
+  "keywords": [
+    "MERN",
+    "Job",
+    "Tracker"
+  ],
+  "license": "ISC",
+  "author": "Ansh Kumar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5",
+    "nodemon": "^3.1.11"
+  }
+}
